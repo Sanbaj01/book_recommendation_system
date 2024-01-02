@@ -1,0 +1,13 @@
+prefix=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation
+exec_prefix=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation
+libdir=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation/lib
+sharedlibdir=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation/lib
+includedir=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

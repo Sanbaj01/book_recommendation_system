@@ -1,0 +1,11 @@
+prefix=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/sanbaj/Python Projects/fun python practise/book-recommender-system/book-recommendation/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
